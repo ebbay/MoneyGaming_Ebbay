@@ -30,7 +30,7 @@ public class Test1 {
 
         WebElement lastName = driver.findElement(By.xpath("//input[@name='map(lastName)']"));
         lastName.sendKeys("Smith");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 
     @AfterMethod
